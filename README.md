@@ -39,7 +39,7 @@ return \GetOlympus\Dionysos\Field\Title::build(false, [
 | ---------| ------- | ------------------------ | --------------- |
 | `title`  | String  | `'Title'` | *empty* |
 | `class`  | String  | *empty*   | *empty* |
-| `level`  | Integer | 2         | *empty* |
+| `level`  | Integer | 2         | 1 to 6 |
 
 ## Title display
 
@@ -50,6 +50,9 @@ The component will display:
 ```
 
 ## Release History
+
+0.0.2
+- Clean documentation
 
 0.0.1
 - Initial commit
