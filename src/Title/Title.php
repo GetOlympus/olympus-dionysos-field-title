@@ -54,10 +54,11 @@ class Title extends Field
         $vars = $contents;
 
         // Check level
-        $vars['level'] = is_int($vars['level']) && 1 <= $vars['level'] && 6 >= $vars['level'] ? $vars['level'] : 2;
+        $vars['level'] = (int) $vars['level'];
+        $vars['level'] = 1 <= $vars['level'] && 6 >= $vars['level'] ? $vars['level'] : 2;
 
         // Check class
-        $vars['class'] = !empty($vars['class']) ? ' '.$vars['class'] : '';
+        $vars['class'] = !empty($vars['class']) ? $vars['class'] : '';
 
         // Update vars
         return $vars;
