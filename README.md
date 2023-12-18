@@ -1,4 +1,12 @@
+<img src="https://github.com/GetOlympus/olympus-dionysos-field-title/blob/master/assets/field-title.png" align="left" />
+
 # Dionysos Title Field
+
+[![Olympus Component][olympus-image]][olympus-url]
+[![CodeFactor Grade][codefactor-image]][codefactor-url]
+[![Packagist Version][packagist-image]][packagist-url]
+[![MIT][license-image]][license-blob]
+
 > This component is a part of the **Olympus Dionysos fields** for **WordPress**.
 
 ```sh
@@ -7,16 +15,9 @@ composer require getolympus/olympus-dionysos-field-title
 
 ---
 
-[![Olympus Component][olympus-image]][olympus-url]
-[![CodeFactor Grade][codefactor-image]][codefactor-url]
-[![Packagist Version][packagist-image]][packagist-url]
-[![MIT][license-image]][license-blob]
+## Table of contents
 
----
-
-<p align="center">
-    <img src="https://github.com/GetOlympus/olympus-dionysos-field-title/blob/master/assets/field-title-64.png" />
-</p>
+[Field initialization](#field-initialization) • [Variables definition](#variables-definition) • [Title display](#title-display) • [Release history](#release-history) • [Contributing](#contributing)
 
 ---
 
@@ -33,7 +34,7 @@ return \GetOlympus\Dionysos\Field\Title::build(false, [
 ]);
 ```
 
-## Variables definitions
+## Variables definition
 
 | Variable | Type    | Default value if not set | Accepted values |
 | ---------| ------- | ------------------------ | --------------- |
@@ -51,11 +52,10 @@ The component will display:
 
 ## Release History
 
-0.0.2
-- Clean documentation
-
-0.0.1
-- Initial commit
+| Version | Note |
+| :------ | :--- |
+| 0.0.2  | Clean documentation |
+| 0.0.1  | Initial commit |
 
 ## Contributing
 
